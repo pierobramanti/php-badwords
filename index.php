@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 border">
-                <form action="" method="GET">
+                <form action="./badwords.php" method="GET">
                     <div class="row">
                         <div class="col-4">
                             <div class="form-group">

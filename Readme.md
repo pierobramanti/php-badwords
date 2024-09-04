@@ -8,3 +8,4 @@ Workflow
 1 Creo un file index.php
 2 inserisco all'interno della struttura html due campi input
 3 Creo un bottone
+4 creo un file badwords.php e lo collego nella form nel' action
