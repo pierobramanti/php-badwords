@@ -20,7 +20,7 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="form-group">
-                                <div class="control-label">
+                                <div class="control-label fw-bolder">
                                     Digita Qualcosa
                                 </div>
                                 <input type="text" class="form-control" name="" placeholder="Digita Qualcosa" >
@@ -28,11 +28,14 @@
                         </div>
                         <div class="col-4">
                             <div class="form-group">
-                                <div class="control-label">
+                                <div class="control-label fw-bolder">
                                     Digita Qualcosa
                                 </div>
                                 <input type="text" class="form-control" name="" placeholder="Digita Qualcosa" >
                             </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <button type="submit" class="btn btn-danger" > Ottieni</button>
                         </div>
                     </div>
                 </form>

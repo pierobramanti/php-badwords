@@ -6,5 +6,5 @@ stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 Workflow
 
 1 Creo un file index.php
-
 2 inserisco all'interno della struttura html due campi input
+3 Creo un bottone
