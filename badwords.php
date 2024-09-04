@@ -1,5 +1,6 @@
 <?php
-
+$paragrafo = $_GET['paragrafo'];
+$badWord = $_GET['badWord'];
 
 
 ?>
@@ -17,11 +18,11 @@
         <div class="row">
             <div class="col-4 border">
                 <h3> Paragrafo</h3>
-                <p> Il testo da te digitato è:</p>
+                <p> Il testo da te digitato è: <?php echo $paragrafo ?></p>
             </div>
             <div class="col-4 border">
                 <h3> Censura </h3>
-                <p> Ecco la tua parola censurata:</p>
+                <p> Ecco la tua parola censurata:<?php echo $badWord ?> </p>
             </div>
         </div>
     </div>

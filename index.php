@@ -18,7 +18,7 @@
                                 <div class="control-label fw-bolder">
                                     Il tuo paragrao
                                 </div>
-                                <input type="text" class="form-control" name="" placeholder="Digita Qualcosa" >
+                                <input type="text" class="form-control" name="paragrafo" placeholder="Digita Qualcosa" >
                             </div>
                         </div>
                         <div class="col-4">
@@ -26,7 +26,7 @@
                                 <div class="control-label fw-bolder">
                                     La tua parola da censurare
                                 </div>
-                                <input type="text" class="form-control" name="" placeholder="Digita una parola da censurare" >
+                                <input type="text" class="form-control" name="badWord" placeholder="Digita una parola da censurare" >
                             </div>
                         </div>
                         <div class="col-12 mt-2">
