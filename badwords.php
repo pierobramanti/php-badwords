@@ -1,8 +1,10 @@
 <?php
-$paragrafo = $_GET['paragrafo'];
-$badWord = $_GET['badWord'];
-
-
+$paragrafo = $_GET['paragrafo']; 
+$badWord = $_GET['badWord']; 
+$length = strlen($paragrafo); 
+$replacement = '***'; 
+$censored = str_replace($badWord, $replacement, $badWord ); 
+$lenght_censored = strlen($badWord);
 ?>
 
 <!DOCTYPE html>
@@ -17,12 +19,14 @@ $badWord = $_GET['badWord'];
     <div class="container">
         <div class="row">
             <div class="col-4 border">
-                <h3> Paragrafo</h3>
-                <p> Il testo da te digitato è: <?php echo $paragrafo ?></p>
+                <h3>Paragrafo</h3>
+                <p>Il testo da te digitato è: <?php echo $paragrafo; ?></p>
+                <p>La lunghezza del tuo paragrafo è: <?php echo $length; ?></p>
             </div>
             <div class="col-4 border">
-                <h3> Censura </h3>
-                <p> Ecco la tua parola censurata:<?php echo $badWord ?> </p>
+                <h3>Censura</h3>
+                <p>Ecco la tua parola censurata: <?php echo $censored; ?></p>
+                <p> La lunghezza dellla tua parola censurata è: <?php echo $lenght_censored?> </p>
             </div>
         </div>
     </div>
