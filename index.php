@@ -1,8 +1,3 @@
-<?php
-
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +16,7 @@
                         <div class="col-4">
                             <div class="form-group">
                                 <div class="control-label fw-bolder">
-                                    Digita Qualcosa
+                                    Il tuo paragrao
                                 </div>
                                 <input type="text" class="form-control" name="" placeholder="Digita Qualcosa" >
                             </div>
@@ -29,9 +24,9 @@
                         <div class="col-4">
                             <div class="form-group">
                                 <div class="control-label fw-bolder">
-                                    Digita Qualcosa
+                                    La tua parola da censurare
                                 </div>
-                                <input type="text" class="form-control" name="" placeholder="Digita Qualcosa" >
+                                <input type="text" class="form-control" name="" placeholder="Digita una parola da censurare" >
                             </div>
                         </div>
                         <div class="col-12 mt-2">
