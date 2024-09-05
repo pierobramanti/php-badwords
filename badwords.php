@@ -2,7 +2,7 @@
 $paragrafo = $_GET['paragrafo']; 
 $badWord = $_GET['badWord']; 
 $length = strlen($paragrafo); 
-$censored = str_replace($paragrafo, "***", $badWord ); 
+$censored = str_replace($badWord, "***", $paragrafo ); 
 $lenght_censored = strlen($censored);
 ?>
 
